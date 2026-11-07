@@ -10,9 +10,9 @@ public class SpellCaster {
             if(roll < 1.0 / 3.0){
                 System.out.println("Success! The spell " + spellName + " has been casted!");
             } else if(roll < 2.0 / 3.0) {
-                throw new ManaLeakException("Attention! ManaLeak while attempting to cast, " + spellName);
+                throw new ManaLeakException("casting --> " + spellName);
             }else{
-                throw new FizzleException("Attention! The spell " + spellName + " is a FizzleException.");
+                throw new FizzleException("casting --> " + spellName);
             }
 
     }
