@@ -24,3 +24,14 @@ How did you ensure that your file stream was properly closed even when an except
 
 I used the try-with-resource statement to guarantee that the file stream closes automatically. Anything declared inside the parentheses of the try block closes when the block finishes executing, even for IOExceptions.
 The key benefits of using try-with-resources over a finally block are that it eliminates repetitive code, lets the compiler handle resource cleanup automatically, and preserves the original exception to make debugging easier.
+
+
+
+____________________
+
+
+What did you accomplish in this phase? When reading from an external file, why does the Java compiler require you to handle FileNotFoundException or declare that it is thrown?
+
+In this phase, I created a static method that reads a text file line by line, prints to the console, and handles errors gracefully. I also called readLog("spell_log.txt") to display the archive history and readLog("missing_grimoire.txt") to demonstrate error handling for a non-existent file.
+
+Java requires you to handle FileNotFoundException or declare that it is thrown because external file operations depend on unpredictable factors, ensuring your code anticipates these issues rather than crashing unexpectedly.
