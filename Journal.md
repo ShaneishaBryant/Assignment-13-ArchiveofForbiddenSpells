@@ -35,3 +35,12 @@ What did you accomplish in this phase? When reading from an external file, why d
 In this phase, I created a static method that reads a text file line by line, prints to the console, and handles errors gracefully. I also called readLog("spell_log.txt") to display the archive history and readLog("missing_grimoire.txt") to demonstrate error handling for a non-existent file.
 
 Java requires you to handle FileNotFoundException or declare that it is thrown because external file operations depend on unpredictable factors, ensuring your code anticipates these issues rather than crashing unexpectedly.
+
+
+_____________________
+
+
+
+What issues or edge cases did you discover while testing your program? If you reviewed your work with an AI tutor, what suggestions did it provide, and how did they help you better understand exception handling and file I/O?
+
+The only issue found was in SpellCaster.java, where the logToFile method was hardcoded with "spell_log.txt" instead of using the constant variable LOG_FILE. I made this update, and the program worked as expected. Gemini recommended introducing a timestamped audit trail, which was beyond the scope of what we covered so far, so I did not implement this recommendation. It also mentioned that the exception handling sequence in the program was properly ordered.

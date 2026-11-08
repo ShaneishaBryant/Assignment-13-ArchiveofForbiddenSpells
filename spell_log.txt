@@ -28,3 +28,21 @@ Success! Spell Pickleball cast successfully.
 [ATTENTION FIZZLE] Spell Shadow Bend triggered Fizzle Exception.
 [ATTENTION MANALEAK] Spell Cloak triggered ManaLeak Exception,
 [ATTENTION MANALEAK] Spell Vortex Throw triggered ManaLeak Exception,
+Success! Spell Cosmo cast successfully.
+Success! Spell Pickleball cast successfully.
+[ATTENTION FIZZLE] Spell Firestorm triggered Fizzle Exception.
+[ATTENTION MANALEAK] Spell Shadow Bend triggered ManaLeak Exception,
+Success! Spell Cloak cast successfully.
+[ATTENTION MANALEAK] Spell Vortex Throw triggered ManaLeak Exception,
+Success! Spell Cosmo cast successfully.
+Success! Spell Pickleball cast successfully.
+Success! Spell Firestorm cast successfully.
+[ATTENTION FIZZLE] Spell Shadow Bend triggered Fizzle Exception.
+[ATTENTION FIZZLE] Spell Cloak triggered Fizzle Exception.
+[ATTENTION FIZZLE] Spell Vortex Throw triggered Fizzle Exception.
+[ATTENTION MANALEAK] Spell Cosmo triggered ManaLeak Exception,
+[ATTENTION MANALEAK] Spell Pickleball triggered ManaLeak Exception,
+[ATTENTION FIZZLE] Spell Firestorm triggered Fizzle Exception.
+[ATTENTION MANALEAK] Spell Shadow Bend triggered ManaLeak Exception,
+Success! Spell Cloak cast successfully.
+Success! Spell Vortex Throw cast successfully.

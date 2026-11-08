@@ -10,7 +10,7 @@ public class SpellCaster {
 
     //helper method that uses try-with-resources to guarantee the file writer is closed properly
     private void logToFile(String message){
-        try (PrintWriter writer = new PrintWriter(new FileWriter("spell_log.txt", true))){
+        try (PrintWriter writer = new PrintWriter(new FileWriter(LOG_FILE, true))){
             writer.println(message);
         }catch(IOException e){
             //handle I/O issues
