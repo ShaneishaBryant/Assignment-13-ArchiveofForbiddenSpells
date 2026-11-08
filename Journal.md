@@ -14,3 +14,13 @@ What happens to program execution when you place the try-catch block inside the 
 
 Placing the try-catch block inside the loop allows the program to recover from an error and continue processing the remaining items in the loop, whereas wrapping the entire loop stops the execution on the first exception and skips all other iterations.
 Inside the loop, each iteration is isolated; when an exception occurs, the catch block handles it locally, and the loop proceeds to the next item.
+
+
+
+_____________________
+
+
+How did you ensure that your file stream was properly closed even when an exception occurred during writing? What are the key benefits of using try-with-resources over manual closing in a finally block?
+
+I used the try-with-resource statement to guarantee that the file stream closes automatically. Anything declared inside the parentheses of the try block closes when the block finishes executing, even for IOExceptions.
+The key benefits of using try-with-resources over a finally block are that it eliminates repetitive code, lets the compiler handle resource cleanup automatically, and preserves the original exception to make debugging easier.
